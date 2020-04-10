@@ -1,0 +1,38 @@
+2020-04-02T07:32:28+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error. in C:\xampp\htdocs\shop\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:675
+Stack trace:
+#0 C:\xampp\htdocs\shop\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(599): ActionScheduler_DBStore->claim_actions(2, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\shop\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_HybridStore.php(206): ActionScheduler_DBStore->stake_claim(25, NULL, Array, '')
+#2 C:\xampp\htdocs\shop\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(154): ActionScheduler_HybridStore->stake_claim(25)
+#3 C:\xampp\htdocs\shop\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(133): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#4 C:\xampp\htdocs\shop\wp-includes\class-wp-hook.php(288 in C:\xampp\htdocs\shop\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 675
+
+2020-04-02T07:33:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:34:11+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:34:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:34:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:34:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:34:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:35:05+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:35:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:35:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:36:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:36:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:36:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:36:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:37:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-04-02T07:37:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\shop\wp-includes\Requests\Transport\cURL.php on line 163
+
